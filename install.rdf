@@ -18,28 +18,36 @@
       </Description>
     </em:targetApplication>
     <!-- Register an skin for the built in layouts. 
-         See http://wiki.songbirdnest.com/Developer/Developer_Intro/Feathers -->
+         See http://developer.getnightingale.com/feathers/ -->
     <songbird:skin>
       <Description>
         <songbird:name>piasa</songbird:name>
         <songbird:internalName>piasa</songbird:internalName>
         <songbird:compatibleLayout>
           <Description>
-            <songbird:layoutURL>chrome://coppery/content/xul/mainplayer.xul</songbird:layoutURL>
+            <songbird:layoutURL>chrome://bluemonday/content/xul/mainplayer.xul</songbird:layoutURL>
             <!-- no "showChrome" tag here will cause the feather manager to use
                  default values - true for OS X, false for other OSes -->
             <songbird:showChrome>true</songbird:showChrome>
             <songbird:onTop>false</songbird:onTop>
           </Description>
-        </songbird:compatibleLayout>
-        <songbird:compatibleLayout>
           <Description>
-            <songbird:layoutURL>chrome://coppery/content/xul/miniplayer.xul</songbird:layoutURL>
+            <songbird:layoutURL>chrome://bluemonday/content/xul/miniplayer.xul</songbird:layoutURL>
             <songbird:showChrome>false</songbird:showChrome>
             <songbird:onTop>true</songbird:onTop>
           </Description>
         </songbird:compatibleLayout>
       </Description>
     </songbird:skin>
+	<songbird:layout>
+      <Description>
+        <songbird:name>chrome://songbird/locale/songbird.properties#feathers.name.mainlayout</songbird:name>
+        <songbird:url>chrome://bluemonday/content/xul/mainplayer.xul</songbird:url>
+      </Description>
+      <Description>
+        <songbird:name>chrome://songbird/locale/songbird.properties#feathers.name.minilayout</songbird:name>
+        <songbird:url>chrome://bluemonday/content/xul/miniplayer.xul</songbird:url>
+      </Description>
+    </songbird:layout>
   </Description>
 </RDF>
