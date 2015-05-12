@@ -4,11 +4,11 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>piasa@getnightingale.com</em:id>
     <em:type>2</em:type>
-    <em:name>piasa</em:name>
-    <em:version>0.2</em:version>
+    <em:name>Piasa</em:name>
+    <em:version>0.2.1</em:version>
     <em:creator>Geoffrey Gates (Timmythepirate)</em:creator>
 
-    <em:description>default feather with a copper color</em:description>
+    <em:description>Default Nightingale Feather with a Copper Color</em:description>
 
     <em:targetApplication>
       <Description>
@@ -21,7 +21,7 @@
          See http://developer.getnightingale.com/feathers/ -->
     <songbird:skin>
       <Description>
-        <songbird:name>piasa</songbird:name>
+        <songbird:name>Piasa</songbird:name>
         <songbird:internalName>piasa</songbird:internalName>
         <songbird:compatibleLayout>
           <Description>
