@@ -611,7 +611,7 @@ sb-sys-titlebar[platform="Darwin"][inactive] {
   background-color: rgb(188,138,80);
 }
 #main-menubar > menu[_moz-menuactive="true"] > label {
-  color: rgb(0,0,0);
+  color: rgb(255,255,255);
 }
 #main-menubar > menu > label {
   color: rgb(0,0,0);
