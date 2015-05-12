@@ -1,6 +1,6 @@
-#content piasa  chrome/content/
-#locale  piasa  en-US  chrome/locale/en-US/
-#skin    piasa  classic/1.0 chrome/skin/
+content piasa  chrome/content/
+locale  piasa  en-US  chrome/locale/en-US/
+skin    piasa  classic/1.0 chrome/skin/
 
 # Create a skin for Songbird
 skin  songbird piasa chrome/skin/
