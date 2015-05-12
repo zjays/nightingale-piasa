@@ -1,0 +1,13 @@
+content piasa  chrome/content/
+locale  piasa  en-US  chrome/locale/en-US/
+skin    piasa  classic/1.0 chrome/skin/
+
+
+# Create a skin for Songbird
+skin  songbird piasa chrome/skin/
+# Include the Songbird global in order to suppress the
+# standard OS look and feel.
+skin  global piasa  chrome://songbird-global/skin/
+skin  mozapps  piasa  chrome://songbird-mozapps/skin/
+# Include platform specific skin rules
+skin  songbird-os-specific  piasa  chrome/skin/os-specific/

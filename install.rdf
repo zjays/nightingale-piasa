@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+     xmlns:songbird="http://www.songbirdnest.com/2007/addon-metadata-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>piasa@getnightingale.com</em:id>
+    <em:type>2</em:type>
+    <em:name>piasa</em:name>
+    <em:version>0.2</em:version>
+    <em:creator>Geoffrey Gates (Timmythepirate)</em:creator>
+
+    <em:description>default feather with a copper color</em:description>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>nightingale@getnightingale.com</em:id>
+        <em:minVersion>1.9.0a</em:minVersion>
+        <em:maxVersion>2.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <!-- Register an skin for the built in layouts. 
+         See http://wiki.songbirdnest.com/Developer/Developer_Intro/Feathers -->
+    <songbird:skin>
+      <Description>
+        <songbird:name>piasa</songbird:name>
+        <songbird:internalName>piasa</songbird:internalName>
+        <songbird:compatibleLayout>
+          <Description>
+            <songbird:layoutURL>chrome://coppery/content/xul/mainplayer.xul</songbird:layoutURL>
+            <!-- no "showChrome" tag here will cause the feather manager to use
+                 default values - true for OS X, false for other OSes -->
+            <songbird:showChrome>true</songbird:showChrome>
+            <songbird:onTop>false</songbird:onTop>
+          </Description>
+        </songbird:compatibleLayout>
+        <songbird:compatibleLayout>
+          <Description>
+            <songbird:layoutURL>chrome://coppery/content/xul/miniplayer.xul</songbird:layoutURL>
+            <songbird:showChrome>false</songbird:showChrome>
+            <songbird:onTop>true</songbird:onTop>
+          </Description>
+        </songbird:compatibleLayout>
+      </Description>
+    </songbird:skin>
+  </Description>
+</RDF>
